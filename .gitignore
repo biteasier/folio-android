@@ -1,0 +1,34 @@
+# Gradle / Android Studio
+.gradle/
+build/
+app/build/
+local.properties
+.idea/
+*.iml
+captures/
+.externalNativeBuild/
+.cxx/
+
+# Built APKs live in GitHub Releases, not in git
+dist/
+*.apk
+*.aab
+
+# Signing keys never belong in the repo
+*.jks
+*.keystore
+*.p12
+*.pem
+*.key
+keystore.properties
+.env
+.env.*
+
+
+# OS
+.DS_Store
+Thumbs.db
+*.pfx
+key.properties
+signing.properties
+credentials.json
